@@ -37,11 +37,6 @@ This notebook demonstrates a complete workflow for generating, analyzing, and ev
 - Toggle plotting flags (e.g., `show_plots`) on generators/analyses to inspect intermediate visualizations.
 - Adjust grid-search parameters in the GraphGenerator call to explore alternative graph constructions.
 
-## Outputs & artifacts
-- Summary tables (`summary_df`, `df_explore`, `df_metrics`) for quick comparison of graph variants.
-- Saved laplacian matrices, Fiedler outputs, and embedding plots (configurable save directories).
-- Diagnostic plots for cluster structure and embedding quality.
-
 ## Next steps / suggestions
 - Inspect `summary_df` to pick promising graph configurations for deeper analysis.
 - Compare evaluation metrics across similarity metrics and graph methods to select the most robust construction.
